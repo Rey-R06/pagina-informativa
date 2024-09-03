@@ -100,7 +100,7 @@ a:hover{
     align-items: center;
     justify-content: start;
     gap: 80px;
-    margin: 0 90px;
+    margin: 0 80px;
     height: 600px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
