@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFAFA;
+}
+
+header{
+    top: 0;
+    background-color: #FFFAFA;
+    width: 100%;
+    min-width: 150px;
+    height: 80px;
+    overflow: hidden;
+}
+.conter-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 140px;
+}
+.posi-logo{
+    width: 100px;
+    height: 100px;
+}
+.posi-logo img{
+    width: 70px;
+    height: 70px;
+    top: 5px;
+    left: 10px;
+}
+
+.menu{
+    width: max-content;
+}
+.menu p{
+    display: flex;
+    width: fit-content;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.menu ul{
+    position: absolute;
+    right: 5px;
+    width: 100px;
+    background-color: rgb(211, 233, 19);
+    border: 1px black solid;
+    list-style: none;
+    text-align: left;
+    transition: all .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+li a{
+    display: flex;
+    color: black;
+    padding: 10px 0 10px 20px;
+    font-size: 10px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.menu p:hover ~ ul, ul:hover{
+    opacity: 1;
+    visibility: visible;
+}
+
+a:hover{
+    background-color: rgba(49, 45, 45, 0.507);
+    color: white;
+    border-radius: 10px;
+}
+.fondo-main{
+    width: 100%;
+    height: 100%;
+}
+.fondo-main img{
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.titulo h1{
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+.titulo img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-card--lider{
+    display: flex;
+    gap: 50px;
+    height: 550px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.title-card{
+    text-align: center;
+    margin: 40px 5px 0 0;
+    font-size: 2.5rem;
+}
+.contenedor-card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: max-content;
+    margin: auto 30px;
+    padding: 10px 15px;
+    background-color: #fff0f0;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+}
+.card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card .card-subtitulo{
+    text-align: center;
+    font-size: 2rem;
+}
+.card p{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.conter-buton{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.conter-buton a{
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+footer p{
+    font-size: 2.5rem;
+    color: #fff0f0;
+    text-align: center;
+    margin: 25px;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
