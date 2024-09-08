@@ -105,7 +105,7 @@ li a{
 .contenedor-card{
     position: relative;
     scroll-snap-align: center;
-    margin: 0 40px 0 60px;
+    margin: 0 40px 0 20px;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
