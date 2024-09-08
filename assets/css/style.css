@@ -90,7 +90,7 @@ li a{
 .contenedor-card--lider{
     display: flex;
     align-items: center;
-    margin: 0 0 0 50px;
+    margin: 0 20px 0 50px;
     justify-content:space-around;
     height: 600px;
     overflow-x: scroll;
@@ -105,7 +105,7 @@ li a{
 .contenedor-card{
     position: relative;
     scroll-snap-align: center;
-    margin: 0 60px 0 20px;
+    margin: 0 80px 0 20px;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
