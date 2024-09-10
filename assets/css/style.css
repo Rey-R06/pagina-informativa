@@ -49,7 +49,6 @@ li a{
     display: flex;
     color: black;
     padding: 10px 0 10px 20px;
-    font-size: 10px;
     text-decoration: none;
     transition: all .3s;
 }
@@ -57,12 +56,6 @@ li a{
 .menu p:hover ~ ul, ul:hover{
     opacity: 1;
     visibility: visible;
-}
-
-a:hover{
-    background-color: rgba(49, 45, 45, 0.507);
-    color: white;
-    border-radius: 10px;
 }
 
 .fondo-main{
@@ -91,7 +84,7 @@ a:hover{
 .contenedor-card--lider{
     display: flex;
     align-items: center;
-    margin: 0 20px 0 50px;
+    margin: 0 20px 0 40px;
     justify-content:space-around;
     height: 600px;
     overflow-x: scroll;
@@ -106,7 +99,7 @@ a:hover{
 .contenedor-card{
     position: relative;
     scroll-snap-align: center;
-    margin: 0 80px 0 20px;
+    margin: 0 60px 0 20px;
     width: 90%;
     min-width: 230px;
     max-width: 300px;
@@ -126,6 +119,7 @@ a:hover{
     font-size: 2rem;
 }
 .card p{
+    width: fit-content;
     text-align: center;
     font-size: 1.4rem;
     margin: 10px 0;
@@ -133,6 +127,7 @@ a:hover{
 .conter-buton{
     position: relative;
     margin: 0 auto;
+    background-color: #646464;
     text-align: center;
     font-size: 2rem;
     width: 150px;
@@ -141,6 +136,7 @@ a:hover{
 }
 .conter-buton a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 footer{
     width: 100%;
