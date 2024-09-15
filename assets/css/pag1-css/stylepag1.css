@@ -38,8 +38,8 @@ header{
     position: absolute;
     right: 5px;
     width: 100px;
-    background-color: rgb(211, 233, 19);
-    border: 1px black solid;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(0, 0, 0) solid;
     list-style: none;
     text-align: left;
     transition: all .3s;
